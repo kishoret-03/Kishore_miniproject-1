@@ -70,7 +70,7 @@ export default function ProfileSetup() {
           value={profile.gender}
           onChange={handleChange}
           required
-          className="w-full px-3 py-2 border rounded"
+          className="w-full bg-slate-600 px-3 py-2 border rounded"
         >
           <option value="">Select Gender</option>
           <option value="Male"> Male</option>
@@ -82,7 +82,7 @@ export default function ProfileSetup() {
           value={profile.fitnessLevel}
           onChange={handleChange}
           required
-          className="w-full px-3 py-2 border rounded"
+          className="w-full bg-slate-600 px-3 py-2 border rounded"
         >
           <option value="">Fitness Level</option>
           <option value="Beginner">Beginner </option>
