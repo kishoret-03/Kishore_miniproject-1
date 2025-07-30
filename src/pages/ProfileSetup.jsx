@@ -54,7 +54,7 @@ export default function ProfileSetup() {
           onChange={handleChange}
           placeholder="Name"
           required
-          className="w-full px-3 py-2 border rounded"
+          className="w-full bg-slate-600 px-3 py-2 border rounded"
         />
         <input
           name="age"
@@ -63,7 +63,7 @@ export default function ProfileSetup() {
           type="number"
           placeholder="Age"
           required
-          className="w-full px-3 py-2 border rounded"
+          className="w-full bg-slate-600 px-3 py-2 border rounded"
         />
         <select
           name="gender"
@@ -95,7 +95,7 @@ export default function ProfileSetup() {
           onChange={handleChange}
           placeholder="Fitness Goals"
           required
-          className="w-full px-3 py-2 border rounded"
+          className="w-full bg-slate-600 px-3 py-2 border rounded"
          />
 
          <input
@@ -105,7 +105,7 @@ export default function ProfileSetup() {
           type="tel"
           placeholder="Mobile Number"
           required
-          className="w-full px-3 py-2 border rounded"
+          className="w-full bg-slate-600 px-3 py-2 border rounded"
         />
         <input
           name="email"
@@ -114,13 +114,13 @@ export default function ProfileSetup() {
           type="email"
           placeholder="Email Address"
           required
-          className="w-full px-3 py-2 border rounded"
+          className="w-full bg-slate-600 px-3 py-2 border rounded"
         />
         <input
           type="file"
           accept="image/*"
           onChange={handleImageUpload}
-          className="w-full px-3 py-2 border rounded"
+          className="w-full bg-slate-600 px-3 py-2 border rounded"
         />
         <button
           type="submit"
