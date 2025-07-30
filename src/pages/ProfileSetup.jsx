@@ -45,7 +45,7 @@ export default function ProfileSetup() {
 
   return (
     <div className="relative h-screen bg-[url('https://wallpapercave.com/wp/wp2333032.jpg')] bg-cover bg-center backdrop-blur-sm">
-    <div className="max-w-xl mx-auto bg-white p-6 rounded-xl shadow text-white absolute inset-0 bg-gradient-to-br from-black/70 via-gray-800/60 to-black/70 backdrop-blur-sm ">
+    <div className="max-w-xl mx-auto bg-slate-600 p-6 rounded-xl shadow text-white absolute inset-0 bg-gradient-to-br from-black/70 via-gray-800/60 to-black/70 backdrop-blur-sm ">
       <h2 className="text-2xl font-bold mb-4 text-center"> Edit Profile</h2>
       <form onSubmit={handleSave} className="space-y-4">
         <input
