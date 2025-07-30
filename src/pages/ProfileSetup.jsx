@@ -40,7 +40,7 @@ export default function ProfileSetup() {
     e.preventDefault();
     localStorage.setItem("userProfile", JSON.stringify(profile));
     window.location.href = "/profile";
-    toast.success("Profile saved successfully!");
+
    
   };
 
@@ -130,7 +130,7 @@ export default function ProfileSetup() {
            Save Profile
         </button>
       </form>
-      <ToastContainer position="top-right" autoClose={2000} hideProgressBar={false} />
+  
     </div>
     </div>
     
