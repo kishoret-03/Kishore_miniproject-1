@@ -40,7 +40,7 @@ export default function ProfileSetup() {
     e.preventDefault();
     localStorage.setItem("userProfile", JSON.stringify(profile));
     toast.success("Profile saved successfully!");
-    window.location.href = "/Profile";
+    window.location.href = "/profile";
   };
 
   return (
