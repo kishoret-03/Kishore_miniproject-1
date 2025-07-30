@@ -25,7 +25,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/ProfileSetup" element={<ProfileSetup />} />
+          <Route path="/profile-setup" element={<ProfileSetup />} />
           <Route path="/profile" element={<RequireAuth><Profile workouts={workouts} /></RequireAuth>} />
           <Route path="/dashboard" element={<RequireAuth><Dashboard workouts={workouts} /></RequireAuth>} />
           <Route path="/workouts" element={<RequireAuth><WorkoutLog workouts={workouts} setWorkouts={setWorkouts} /></RequireAuth>} />
