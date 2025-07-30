@@ -39,8 +39,9 @@ export default function ProfileSetup() {
   const handleSave = (e) => {
     e.preventDefault();
     localStorage.setItem("userProfile", JSON.stringify(profile));
-    toast.success("Profile saved successfully!");
     window.location.href = "/profile";
+    toast.success("Profile saved successfully!");
+   
   };
 
   return (
