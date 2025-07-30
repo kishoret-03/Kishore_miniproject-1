@@ -39,7 +39,7 @@ export default function ProfileSetup() {
   const handleSave = (e) => {
     e.preventDefault();
     localStorage.setItem("userProfile", JSON.stringify(profile));
-    window.location.href = "/profile";
+    window.location.href = "/dashboard";
 
    
   };
