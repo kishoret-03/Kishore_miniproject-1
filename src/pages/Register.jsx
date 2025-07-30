@@ -16,7 +16,7 @@ export default function Register() {
 
     localStorage.setItem("isLoggedIn", "true");
     localStorage.setItem("auth", "true");
-    navigate("/ProfileSetup");
+    navigate("/profile");
   };
 
   return (
